@@ -4,10 +4,10 @@ require "em/mixpanel/version"
 Gem::Specification.new do |s|
   s.name    = 'em-mixpanel'
   s.version = EM::Mixpanel::VERSION.dup
-  s.email   = "dave@minefold.com"
-  s.author  = 'Dave Newman'
+  s.email   = 'chris@minefold.com'
+  s.authors  = ['Chris Lloyd', 'Dave Newman']
   
-  s.summary = 'Non-blocking Mixpanel tracker'
+  s.summary = 'Non-blocking Mixpanel API'
   
   s.add_dependency 'em-http-request'
   
