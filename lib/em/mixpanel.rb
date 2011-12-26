@@ -1,6 +1,7 @@
 require 'base64'
 require 'json'
 require 'em/mixpanel/version'
+require 'em-http'
 
 module EM
   class Mixpanel
