@@ -9,9 +9,6 @@ Async tracker for the Mixpanel API. It must run inside an [Eventmachine](https:/
     
     # This data point intentially doesn't have an IP
     tracker.track 'joined game', distinct_id: 'chrislloyd', world: 'minebnb'
-    
-    # For import events you need to set the time manually
-    tracker.import '$signup', distinct_id: 'chrislloyd', time: 1321499371
 
 ### Rails
     
